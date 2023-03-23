@@ -1,0 +1,8 @@
+public class BitwiseAnd {
+    public static void main(String[] args) {
+        int a = 7; // binary 111
+        int b = 3; // binary 011
+        int result = a & b; // binary 011
+        System.out.println(result);
+    }
+}
