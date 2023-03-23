@@ -1,0 +1,7 @@
+public class BitwiseComplement {
+    public static void main(String[] args) {
+        int a = 7; // binary 111
+        int result = ~a; // binary 000...001000
+        System.out.println(result);
+    }
+}
