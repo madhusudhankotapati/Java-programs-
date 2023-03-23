@@ -1,0 +1,7 @@
+public class SignedRightShift {
+    public static void main(String[] args) {
+        int a = -7; // binary 111...111001
+        int result = a >> 2; // binary 111...111111
+        System.out.println(result);
+    }
+}
