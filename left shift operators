@@ -1,0 +1,7 @@
+public class LeftShift {
+    public static void main(String[] args) {
+        int a = 7; // binary 111
+        int result = a << 2; // binary 11100
+        System.out.println(result);
+    }
+}
